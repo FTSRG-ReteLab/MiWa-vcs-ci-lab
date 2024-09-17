@@ -53,4 +53,9 @@ public class TrainControllerImpl implements TrainController {
 		followSpeed();
 	}
 
+	@Override
+	public float getAcceleration() {
+		return acceleration;
+	}
+
 }
